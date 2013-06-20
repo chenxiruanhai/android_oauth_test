@@ -1,0 +1,294 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:orientation="vertical" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新浪微博" />
+
+            <Button
+                android:id="@+id/btn_sina_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_sina_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_sina_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人人网" />
+
+            <Button
+                android:id="@+id/btn_renren_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_renren_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_renren_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="腾讯微博" />
+
+            <Button
+                android:id="@+id/btn_tencentweibo_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_tencentweibo_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_tencentweibo_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ空间" />
+
+            <Button
+                android:id="@+id/btn_tencentspace_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_tencentspace_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_tencentspace_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="豆瓣网" />
+
+            <Button
+                android:id="@+id/btn_douban_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_douban_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_douban_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜狐微博" />
+
+            <Button
+                android:id="@+id/btn_souhuweibo_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_souhuweibo_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_souhuweibo_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开心网" />
+
+            <Button
+                android:id="@+id/btn_kaixin_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_kaixin_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_kaixin_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="百度？？" />
+
+            <Button
+                android:id="@+id/btn_baidu_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_baidu_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_baidu_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="印象笔记" />
+
+            <Button
+                android:id="@+id/btn_yinxiang_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_yinxiang_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_yinxiang_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pocket" />
+
+            <Button
+                android:id="@+id/btn_pocket_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定" />
+
+            <Button
+                android:id="@+id/btn_pocket_unauth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="解绑" />
+
+            <Button
+                android:id="@+id/btn_pocket_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="发布一条动态" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
