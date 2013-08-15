@@ -97,14 +97,13 @@ public class AuthActivity extends Activity {
 					}
 					break;
 				case ConfigConstants.PLATFORM_QQSPACE:
-					/**QQªÚFacebook*/
+					/** QQªÚFacebook */
 					if (url.contains("#access_token=") || url.contains("&expires_in=")) {
 						String accessToken = url.substring(url.indexOf("#access_token=") + 14, url.indexOf("&expires_in="));
 						String expires = url.substring(url.indexOf("&expires_in=") + 12, url.length());
-						
-					 
+
 					}
-					
+
 					break;
 				default:
 					break;
